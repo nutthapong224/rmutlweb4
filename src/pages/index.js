@@ -32,7 +32,8 @@ export default function Home() {
             <div key={students['id']}>  
               <Link href ={'/product/'+students.id}> 
               <h1 className={styles.title}> {students['code']}</h1>
-              <Image src={students['image']} width={300} height={300} alt={students.code}/>
+              <Image src={students['image']} width={300} height={300} alt={students.code}/> 
+               <h2> Sawadee</h2>
               </Link>
             
             </div>
